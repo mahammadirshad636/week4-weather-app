@@ -39,10 +39,6 @@ The application automatically detects the **user’s current location weather** 
 
 ---
 
-## 📂 Project Folder Structure
-
----
-
 ## 📄 File Descriptions
 
 ### 🔹 `index.html`
@@ -81,4 +77,5 @@ export const CONFIG = {
     API_KEY: "YOUR_OPENWEATHER_API_KEY",
     BASE_URL: "https://api.openweathermap.org/data/2.5"
 };
+
 
