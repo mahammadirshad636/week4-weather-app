@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-section button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.weather-card {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.weather-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.weather-details {
+    margin-top: 15px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.header p {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.content-card {
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.placeholder {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.placeholder h3 {
+    margin-bottom: 10px;
+}
+
+.error {
+    background: #ffebee;
+    color: #c62828;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.loading {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.search-box {
+    position: relative;
+}
+
+.suggestions {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    background: white;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    max-height: 180px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.suggestions li {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background: #e0e0e0;
+}
+
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .weather-card,
+body.dark .forecast-day,
+body.dark .placeholder {
+    background: #1e1e1e;
+    color: white;
+}
+
+.weather-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* BOTH SIDES SAME HEIGHT */
+.weather-layout > div {
+    height: 280px;
+}
+
+/* MAP */
+.map {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* WEATHER CARD */
+#currentWeather {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Inner weather card fills height */
+.weather-card {
+    width: 100%;
+    height: 85%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+

@@ -1,0 +1,14 @@
+/* Mobile */
+@media (max-width: 768px) {
+    .weather-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .weather-layout > div {
+        height: auto;
+    }
+
+    .map {
+        height: 280px;
+    }
+}
