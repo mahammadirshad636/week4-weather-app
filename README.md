@@ -33,19 +33,20 @@ The application demonstrates frontend-backend integration concepts using REST AP
 
 ## Folder Structure
 
--week4-weather-app/
--│── index.html
--│── css/
--│ └── style.css
--│ └── responsive.css
--│── js/
--│ ├── app.js
--│ ├── weatherService.js
--│ ├── ui.js
--│ ├── storage.js
--│ └── config.js
--│── README.md
+week4-weather-app/
+│── index.html
+│── css/
+│ └── style.css
+│ └── responsive.css
+│── js/
+│ ├── app.js
+│ ├── weatherService.js
+│ ├── ui.js
+│ ├── storage.js
+│ └── config.js
+└── README.md
 
+---
 
 ## Setup Instructions
 1. Create an account at https://openweathermap.org
@@ -58,4 +59,5 @@ API_KEY: "YOUR_API_KEY"
 ## Conclusion
 This project demonstrates REST API integration, asynchronous JavaScript,
 responsive UI design, and real-world frontend development skills.
+
 
